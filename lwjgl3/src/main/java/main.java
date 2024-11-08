@@ -49,9 +49,25 @@ public class main implements ApplicationListener {
         ScreenUtils.clear(Color.BLACK);
         viewPort.apply();
         spriteBatch.setProjectionMatrix(viewPort.getCamera().combined); //put images in teh right place
+
+        float worldWidth = viewPort.getWorldWidth();
+        float worldHeight= viewPort.getWorldHeight();
+
         spriteBatch.begin();
+
         //draw things here
+        spriteBatch.draw(backgroundTexture, worldWidth, worldHeight);
         spriteBatch.draw(bucketTexture, 0,0,1,1);
+
         spriteBatch.end();
     }
+
+    @Override
+    public void resize (int height, int width){}
+
+    public void pause(){}
+
+    public void resume(){}
+
+    public void dispose(){}
 }
