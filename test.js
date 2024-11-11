@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
-</head>
-<body>
-
-    <script>
-    class Example extends Phaser.Scene
+ class Example extends Phaser.Scene
     {
 
       var config = {
@@ -19,7 +11,7 @@
           update: update
     }
       };
-        function preload ()
+    function preload ()
 {
     this.load.image('sky', 'assets/sky.png');
     this.load.image('ground', 'assets/platform.png');
@@ -31,10 +23,11 @@
     );
 }
 
-        create ()
-        {
-            this.add.image(400, 300, 'sky');
-            this.add.image(400, 300, 'star');
+var platforms;
+
+function create ()
+{
+    this.add.image(400, 300, 'sky');
 
     platforms = this.physics.add.staticGroup();
 
@@ -43,10 +36,9 @@
     platforms.create(600, 400, 'ground');
     platforms.create(50, 250, 'ground');
     platforms.create(750, 220, 'ground');
-        }
-    }
+}
 
-    const config = {
+var config = {
     type: Phaser.AUTO,
     width: 800,
     height: 600,
@@ -61,10 +53,7 @@
         preload: preload,
         create: create,
         update: update
-    };
+    }
+};
 
     const game = new Phaser.Game(config);
-    </script>
-
-</body>
-</html>
