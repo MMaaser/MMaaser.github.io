@@ -8,17 +8,6 @@
     <script>
     class Example extends Phaser.Scene
     {
-
-      var config = {
-        type: Phaser.AUTO, //automatically tries WEBGL (the faster rendering tech), but if its unsupported it uses CANVAS rendering
-        width: 800, //pixel measurements
-        length: 800,
-        scene: {
-          preload: preload,
-          create: create,
-          update: update
-    }
-      };
         preload ()
         {
             this.load.setBaseURL('https://labs.phaser.io');
