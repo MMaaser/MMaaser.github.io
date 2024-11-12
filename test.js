@@ -1,16 +1,21 @@
- class Example extends Phaser.Scene
-    {
-
-      var config = {
-        type: Phaser.AUTO, //automatically tries WEBGL (the faster rendering tech), but if its unsupported it uses CANVAS rendering
-        width: 800, //pixel measurements
-        length: 800,
+class test{
+    var config = {
+        type: Phaser.AUTO,
+        width: 800,
+        height: 600,
+        physics: {
+            default: 'arcade',
+            arcade: {
+                gravity: { y: 300 },
+                debug: false
+            }
+        },
         scene: {
-          preload: preload,
-          create: create,
-          update: update
-    }
-      };
+            preload: preload,
+            create: create,
+            update: update
+        }
+    };
     function preload ()
 {
     this.load.image('sky', 'assets/sky.png');
@@ -37,23 +42,6 @@ function create ()
     platforms.create(50, 250, 'ground');
     platforms.create(750, 220, 'ground');
 }
-
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    physics: {
-        default: 'arcade',
-        arcade: {
-            gravity: { y: 300 },
-            debug: false
-        }
-    },
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    }
 };
 
     const game = new Phaser.Game(config);

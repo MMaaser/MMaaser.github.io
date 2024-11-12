@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
-</head>
-<body>
-
-<script>
-    class Example extends Phaser.Scene
+  class Example extends Phaser.Scene
     {
         preload ()
         {
@@ -51,8 +43,3 @@
     };
 
     const game = new Phaser.Game(config);
-       const game = new Phaser.Game(config);
-</script>
-    </head>
-</body>
-</html>
