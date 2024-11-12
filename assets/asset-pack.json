@@ -5,6 +5,12 @@
                 "url": "assets/dino.png",
                 "key": "dino",
                 "type": "image"
+            },
+            {
+
+                "url": "assets/walkerSUB.png",
+                "key": "mainSprite",
+                "type": "image"
             }
         ]
     },
