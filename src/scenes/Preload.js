@@ -64,7 +64,11 @@ class Preload extends Phaser.Scene {
 
 		this.editorPreload();
 
+		/*var doubleYou = scene.input.keyboard.addKey("W");
+		var itDown = doubleYou.isDown;
+		if (itDown){*/
 		this.load.on(Phaser.Loader.Events.COMPLETE, () => this.scene.start("Level"));
+	    //}
 	}
 
 	/* END-USER-CODE */

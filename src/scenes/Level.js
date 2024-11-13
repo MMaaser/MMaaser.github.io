@@ -74,7 +74,7 @@ class Level extends Phaser.Scene {
 
 	// Write more your code here
 
-	update(){
+	/*update(){
 	if(cursors.left.isDown){
 	walker.setVelocityX(-100);
 	walker.setVelocityY(0);
@@ -92,7 +92,7 @@ class Level extends Phaser.Scene {
 	walker.setVelocityX(0);
 	walker.setVelocityY(0);
 	}
-	}
+	}*/
 
 	create() {
 
