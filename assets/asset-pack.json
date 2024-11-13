@@ -8,8 +8,13 @@
             },
             {
 
-                "url": "assets/walkerSUB.png",
+                "url": "assets/walkerSUB.jpg",
                 "key": "mainSprite",
+                "type": "image"
+            },
+            {
+                "url": "assets/bgSUB.jpg",
+                "key": "background1",
                 "type": "image"
             }
         ]

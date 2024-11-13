@@ -17,10 +17,14 @@ class Preload extends Phaser.Scene {
 	editorPreload() {
 
 		this.load.pack("asset-pack", "assets/asset-pack.json");
+		this.load.image("mainSprite", "assets/walkerSUB.jpg");
+		this.load.image("background1", "assets/bgSUB.jpg");
 	}
 
 	/** @returns {void} */
 	editorCreate() {
+
+        //player character
 
 		// guapen
 		const guapen = this.add.image(505.0120544433594, 360, "guapen");

@@ -16,6 +16,13 @@ class Level extends Phaser.Scene {
 	/** @returns {void} */
 	editorCreate() {
 
+        //bg
+        const bg = this.add.image(0,0,"background1");
+
+	    //player
+	    const walker = this.physics.add.sprite(100,100,"mainSprite");
+	    walker.setInteractive();
+
 		// dino
 		const dino = this.add.image(640, 288, "dino");
 		dino.setInteractive(new Phaser.Geom.Rectangle(0, 0, 250, 250), Phaser.Geom.Rectangle.Contains);
@@ -59,11 +66,33 @@ class Level extends Phaser.Scene {
 		fadeActionScriptDurationConfigComp.duration = 1500;
 
 		this.events.emit("scene-awake");
+
+		cursors.this.input.keyboard.createCursorKeys();
 	}
 
 	/* START-USER-CODE */
 
 	// Write more your code here
+
+	update(){
+	if(cursors.left.isDown){
+	walker.setVelocityX(-100);
+	walker.setVelocityY(0);
+	} else if (cursors.right.isDown){
+	walker.setVelocityX(100);
+	walker.setVelocityY(0);
+	} else if (cursors.up.isDown){
+	walker.setVelocityY(100);
+	walker.setVelocityX(0);
+	} else if (cursors.down.isDown){
+	walker.setVelocityY(-100);
+	walker.setVelocityY(0);
+	}
+	else {
+	walker.setVelocityX(0);
+	walker.setVelocityY(0);
+	}
+	}
 
 	create() {
 
