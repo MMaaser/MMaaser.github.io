@@ -17,11 +17,11 @@ class Level extends Phaser.Scene {
 	editorCreate() {
 
         //bg
-        const bg = this.add.image(0,0,"background1");
+       /* const bg = this.add.image(0,0,"background1");
 
 	    //player
 	    const walker = this.physics.add.sprite(100,100,"mainSprite");
-	    walker.setInteractive();
+	    walker.setInteractive();*/
 
 		// dino
 		const dino = this.add.image(640, 288, "dino");
