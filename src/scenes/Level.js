@@ -100,8 +100,17 @@ class Level extends Phaser.Scene {
 		var isRightDown = keypad.right.isDown;
 		var spaceDown = keypad.space.isDown;
 
-		if (keypad.space.isDown){
+		if (isUpDown){
+			walker.setVelocityY(-200);
+		} else if (isDownDown){
+			walker.setVelocityY(200);
+		} else if (isLeftDown){
+			walker.setVelocityX(-200);
+		} else if (isRightDown){
 			walker.setVelocityX(200);
+		} else {
+			walker.setVelocityX(0);
+			walker.setVelocityY(0);
 		}
 	}
 
