@@ -1,4 +1,3 @@
-
 // You can write more code here
 
 /* START OF COMPILED CODE */
@@ -17,14 +16,10 @@ class Preload extends Phaser.Scene {
 	editorPreload() {
 
 		this.load.pack("asset-pack", "assets/asset-pack.json");
-		/*this.load.image("mainSprite", "assets/walkerSUB.jpg");
-		this.load.image("background1", "assets/bgSUB.jpg");*/
 	}
 
 	/** @returns {void} */
 	editorCreate() {
-
-        //player character
 
 		// guapen
 		const guapen = this.add.image(505.0120544433594, 360, "guapen");
@@ -64,11 +59,7 @@ class Preload extends Phaser.Scene {
 
 		this.editorPreload();
 
-		/*var doubleYou = scene.input.keyboard.addKey("W");
-		var itDown = doubleYou.isDown;
-		if (itDown){*/
 		this.load.on(Phaser.Loader.Events.COMPLETE, () => this.scene.start("Level"));
-	    //}
 	}
 
 	/* END-USER-CODE */
@@ -77,3 +68,4 @@ class Preload extends Phaser.Scene {
 /* END OF COMPILED CODE */
 
 // You can write more code here
+
