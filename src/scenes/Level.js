@@ -54,7 +54,7 @@ class Level extends Phaser.Scene {
 		// welcome
 		const welcome = this.add.text(640, 478, "", {});
 		welcome.setOrigin(0.5, 0.5);
-		welcome.text = "Phaser 3 + Phaser Editor 2D";
+		welcome.text = "Phaser 3 + Phaser Editor 2D: the changes pushed";
 		welcome.setStyle({ "fontFamily": "Arial", "fontSize": "30px" });
 
 		// onAwakeScript_1
