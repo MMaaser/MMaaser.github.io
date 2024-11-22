@@ -1,5 +1,0 @@
-{
-    "redhat.telemetry.enabled": false,
-    "gitpod.openInStable.neverPrompt": true,
-    "javascript.updateImportsOnFileMove.enabled": "always"
-}
