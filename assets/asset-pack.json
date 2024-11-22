@@ -5,6 +5,26 @@
                 "url": "assets/dino.png",
                 "key": "dino",
                 "type": "image"
+            },
+            {
+                "url": "assets/dimmesdale.png",
+                "key": "dimmesdale",
+                "type": "image"
+            },
+            {
+                "url": "assets/hester.png",
+                "key": "hester",
+                "type": "image"
+            },
+            {
+                "url": "assets/mob.png",
+                "key": "mob",
+                "type": "image"
+            },
+            {
+                "url": "assets/perak.png",
+                "key": "dimmesdale",
+                "type": "image"
             }
         ]
     },
