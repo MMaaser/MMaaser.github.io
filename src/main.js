@@ -1,4 +1,3 @@
-
 window.addEventListener('load', function () {
 
 	var game = new Phaser.Game({
@@ -16,8 +15,10 @@ window.addEventListener('load', function () {
 	});
 
 	game.scene.add("Preload", Preload);
-	game.scene.add("Level", Level);
 	game.scene.add("Boot", Boot, true);
+	game.scene.add("Level", Level);
+	game.scene.add("Fight", Fight);
+
 });
 
 class Boot extends Phaser.Scene {
@@ -27,6 +28,11 @@ class Boot extends Phaser.Scene {
 		this.load.pack("pack", "assets/preload-asset-pack.json");
 	}
 
+	create() {
+
+		this.scene.start("Preload");
+	}
+}
 	create() {
 
 		this.scene.start("Preload");
