@@ -1,0 +1,26 @@
+2024-11-20 18:34:40.665 [info] 
+
+
+
+
+2024-11-20 18:34:40.699 [info] Extension host agent started.
+2024-11-20 18:34:40.798 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-11-20 18:34:40.799 [info] Extension 'github.vscode-pull-request-github' v0.100.3 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-11-20 18:34:40.827 [info] Deleted uninstalled extension from disk github.vscode-pull-request-github /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.100.1-universal
+2024-11-20 18:34:44.572 [info] [192.168.155.75][cf8bc142][ManagementConnection] New connection established.
+2024-11-20 18:34:44.964 [info] [192.168.179.202][d6954abe][ExtensionHostConnection] New connection established.
+2024-11-20 18:34:45.539 [info] [192.168.179.202][d6954abe][ExtensionHostConnection] <521> Launched Extension Host Process.
+2024-11-20 18:42:46.359 [info] [192.168.155.75][cf8bc142][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-11-20 18:51:16.191 [info] [192.168.155.75][cf8bc142][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-11-20 18:51:16.191 [info] [192.168.194.137][d6954abe][ExtensionHostConnection] The client has reconnected.
+2024-11-20 18:51:18.808 [info] [192.168.155.75][cf8bc142][ManagementConnection] The client has reconnected.
+2024-11-20 20:04:19.414 [info] [192.168.155.75][cf8bc142][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-11-20 20:14:03.513 [info] [192.168.155.75][cf8bc142][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-11-20 20:14:03.514 [info] [192.168.179.202][cf8bc142][ManagementConnection] The client has reconnected.
+2024-11-20 20:14:03.693 [info] [192.168.179.202][d6954abe][ExtensionHostConnection] The client has reconnected.
+2024-11-20 20:20:36.309 [info] [192.168.179.202][cf8bc142][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-11-20 20:22:15.060 [info] [192.168.179.202][cf8bc142][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-11-20 20:22:15.061 [info] [192.168.155.75][d6954abe][ExtensionHostConnection] The client has reconnected.
+2024-11-20 20:22:15.294 [info] [192.168.179.202][cf8bc142][ManagementConnection] The client has reconnected.
+2024-11-20 20:32:38.964 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-20 21:01:01.939 [info] [192.168.179.202][cf8bc142][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

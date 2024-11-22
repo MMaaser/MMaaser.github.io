@@ -1,0 +1,39 @@
+2024-11-20 00:18:37.203 [info] [main] Log level: Info
+2024-11-20 00:18:37.203 [info] [main] Validating found git in: "git"
+2024-11-20 00:18:37.203 [info] [main] Using git "2.46.0" from "git"
+2024-11-20 00:18:37.203 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-20 00:18:37.203 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-20 00:18:37.203 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-20 00:18:37.203 [info] [Model][openRepository] Opened repository: /workspace/MMaaser.github.io
+2024-11-20 00:18:37.204 [info] > git config --get commit.template [5ms]
+2024-11-20 00:18:37.204 [info] > git rev-parse --show-toplevel [62ms]
+2024-11-20 00:18:37.204 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-11-20 00:18:37.204 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/MMaaser.github.io/.git/refs/remotes/origin/main'
+2024-11-20 00:18:37.204 [info] > git rev-parse --show-toplevel [16ms]
+2024-11-20 00:18:37.204 [info] > git rev-parse refs/remotes/origin/main [42ms]
+2024-11-20 00:18:37.204 [info] > git status -z -uall [33ms]
+2024-11-20 00:18:37.204 [info] > git rev-parse --show-toplevel [73ms]
+2024-11-20 00:18:37.204 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+2024-11-20 00:18:37.204 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-11-20 00:18:37.204 [info] > git config --get commit.template [8ms]
+2024-11-20 00:18:37.204 [info] > git rev-parse --show-toplevel [12ms]
+2024-11-20 00:18:37.204 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-11-20 00:18:37.204 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-20 00:18:37.204 [info] > git rev-parse --show-toplevel [10ms]
+2024-11-20 00:18:37.204 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2024-11-20 00:18:37.204 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/MMaaser.github.io/.git/refs/remotes/origin/main'
+2024-11-20 00:18:37.204 [info] > git merge-base refs/heads/main refs/remotes/origin/main [21ms]
+2024-11-20 00:18:37.204 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-20 00:18:37.204 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2024-11-20 00:18:37.204 [info] > git status -z -uall [9ms]
+2024-11-20 00:18:37.204 [info] > git diff --name-status -z --diff-filter=ADMR 799a6d0026c5692e82c89eb44abfaf49b6a45d84...refs/remotes/origin/main [15ms]
+2024-11-20 00:18:37.204 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-20 00:18:37.204 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-20 00:18:37.204 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-20 00:18:37.204 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-20 00:18:37.738 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-20 00:18:39.111 [info] > git show --textconv :src/scenes/Level.js [5ms]
+2024-11-20 00:18:39.112 [info] > git ls-files --stage -- /workspace/MMaaser.github.io/src/scenes/Level.js [2ms]
+2024-11-20 00:18:39.118 [info] > git cat-file -s 0b2889a051c78fe5794c91a8e7d8f6a8465b3314 [2ms]
+2024-11-20 00:18:41.522 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-11-20 00:18:41.522 [warning] [Git][config] git config failed: Failed to execute git

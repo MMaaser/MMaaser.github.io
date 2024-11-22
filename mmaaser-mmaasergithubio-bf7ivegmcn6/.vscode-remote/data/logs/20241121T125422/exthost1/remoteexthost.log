@@ -1,0 +1,29 @@
+2024-11-21 12:54:26.612 [info] Extension host with pid 523 started
+2024-11-21 12:54:26.612 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/35e6fded/vscode.lock'
+2024-11-21 12:54:26.615 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/35e6fded/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-21 12:54:26.617 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/35e6fded/vscode.lock': The lock looks stale, waiting for 2s.
+2024-11-21 12:54:27.005 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-11-21 12:54:27.006 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-21 12:54:27.823 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+2024-11-21 12:54:28.007 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-21 12:54:28.011 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-11-21 12:54:28.618 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/35e6fded/vscode.lock': The lock looks stale even after waiting for 2s.
+2024-11-21 12:54:28.618 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/35e6fded/vscode.lock': Deleting a stale lock.
+2024-11-21 12:54:28.621 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/35e6fded/vscode.lock': Lock acquired.
+2024-11-21 12:54:28.803 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-21 12:54:28.803 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-21 12:54:29.132 [info] Eager extensions activated
+2024-11-21 12:54:29.132 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-21 12:54:29.133 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-21 12:54:29.133 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-11-21 12:54:30.072 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-11-21 12:54:30.236 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onCommand:simpleBrowser.api.open'
+2024-11-21 12:54:30.279 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2024-11-21 12:54:30.818 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-11-21 12:54:30.821 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-11-21 12:54:30.902 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-21 12:54:30.903 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-21 12:54:34.548 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-21 13:06:14.682 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-11-21 13:06:14.682 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugResolve:pwa-node'
+2024-11-21 13:25:22.531 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'

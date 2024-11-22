@@ -1,0 +1,80 @@
+[Error - 9:38:07 PM] Error while computing completions for file:///workspace/MMaaser.github.io/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1335162)
+    at B (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:796700)
+    at j.computeCompletions (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:795977)
+    at J.doComplete2 (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:797490)
+    at doComplete (/ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:19384)
+    at /ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:5092
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+[Error - 9:38:07 PM] Error while computing completions for file:///workspace/MMaaser.github.io/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1335162)
+    at B (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:796700)
+    at j.computeCompletions (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:795977)
+    at J.doComplete2 (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:797490)
+    at doComplete (/ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:19384)
+    at /ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:5092
+[Error - 9:38:10 PM] Error while computing completions for file:///workspace/MMaaser.github.io/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1335162)
+    at B (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:796700)
+    at j.computeCompletions (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:795977)
+    at J.doComplete2 (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:797490)
+    at doComplete (/ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:19384)
+    at /ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:5092
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+[Error - 9:38:10 PM] Error while computing completions for file:///workspace/MMaaser.github.io/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1335162)
+    at B (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:796700)
+    at j.computeCompletions (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:795977)
+    at J.doComplete2 (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:797490)
+    at doComplete (/ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:19384)
+    at /ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:5092
+[Error - 9:38:11 PM] Error while computing completions for file:///workspace/MMaaser.github.io/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1335162)
+    at B (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:796700)
+    at j.computeCompletions (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:795977)
+    at J.doComplete2 (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:797490)
+    at doComplete (/ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:19384)
+    at /ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:5092
+[Error - 9:38:11 PM] Error while computing completions for file:///workspace/MMaaser.github.io/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1335162)
+    at B (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:796700)
+    at j.computeCompletions (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:795977)
+    at J.doComplete2 (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:797490)
+    at doComplete (/ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:19384)
+    at /ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:5092
+[Error - 9:38:11 PM] Error while computing completions for file:///workspace/MMaaser.github.io/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1335162)
+    at B (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:796700)
+    at j.computeCompletions (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:795977)
+    at J.doComplete2 (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:797490)
+    at doComplete (/ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:19384)
+    at /ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:5092
+[Error - 9:38:12 PM] Error while computing completions for file:///workspace/MMaaser.github.io/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1335162)
+    at B (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:796700)
+    at j.computeCompletions (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:795977)
+    at J.doComplete2 (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:797490)
+    at doComplete (/ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:19384)
+    at /ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:5092
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)
+[Error - 9:38:12 PM] Error while computing completions for file:///workspace/MMaaser.github.io/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:1335162)
+    at B (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:796700)
+    at j.computeCompletions (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:795977)
+    at J.doComplete2 (/ide/extensions/html-language-features/server/dist/node/769.htmlServerMain.js:1:797490)
+    at doComplete (/ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:19384)
+    at /ide/extensions/html-language-features/server/dist/node/421.htmlServerMain.js:1:5092
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:454:9)

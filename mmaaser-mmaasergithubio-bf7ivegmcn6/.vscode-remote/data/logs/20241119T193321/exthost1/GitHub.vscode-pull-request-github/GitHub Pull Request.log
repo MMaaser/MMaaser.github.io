@@ -1,0 +1,99 @@
+2024-11-19 19:33:30.216 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-11-19 19:33:30.216 [info] Activation> Extension version: 0.100.1
+2024-11-19 19:33:32.074 [info] Looking for git repository
+2024-11-19 19:33:32.074 [info] Found 0 repositories during activation
+2024-11-19 19:33:32.074 [info] Git repository found, initializing review manager and pr tree view.
+2024-11-19 19:33:32.078 [info] Registering git provider
+2024-11-19 19:33:32.078 [info] Review+0> Validate state in progress
+2024-11-19 19:33:32.078 [info] Review+0> Validating state...
+2024-11-19 19:33:32.176 [info] Found GitHub remote for folder /workspace/MMaaser.github.io
+2024-11-19 19:33:32.178 [info] Trying to use globalState for assignableUsers.
+2024-11-19 19:33:32.186 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-11-19 19:33:32.186 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-11-19 19:33:32.275 [info] GlobalState does not exist for assignableUsers.
+2024-11-19 19:35:08.304 [info] Review+0> Validate state in progress
+2024-11-19 19:35:08.304 [info] Review+0> Validating state...
+2024-11-19 19:35:08.304 [info] Repo state for file:///workspace/MMaaser.github.io changed.
+2024-11-19 19:35:08.304 [info] Repo file:///workspace/MMaaser.github.io has already been setup.
+2024-11-19 19:35:08.438 [info] Found GitHub remote for folder /workspace/MMaaser.github.io
+2024-11-19 19:35:08.439 [info] Using in-memory cached assignable users.
+2024-11-19 19:35:08.446 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-11-19 19:35:08.446 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-11-19 19:36:44.298 [error] Error signing in to GitHub: Error: 4 DEADLINE_EXCEEDED: Deadline exceeded
+2024-11-19 19:36:44.298 [error] Error: 4 DEADLINE_EXCEEDED: Deadline exceeded
+	at t.callErrorFromStatus (/ide/extensions/gitpod-web/out/extension.js:2:271675)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:296882)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:292767)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:292212)
+	at /ide/extensions/gitpod-web/out/extension.js:2:376194
+	at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+	at a.makeUnaryRequest (/ide/extensions/gitpod-web/out/extension.js:2:296423)
+	at a.getToken (/ide/extensions/gitpod-web/out/extension.js:2:361597)
+	at node:internal/util:432:7
+	at new Promise (<anonymous>)
+	at bound  (node:internal/util:418:12)
+	at A.getToken (/ide/extensions/gitpod-web/out/extension.js:2:1045235)
+	at c.loginGitHub (/ide/extensions/gitpod-web/out/extension.js:2:1402967)
+	at c.createSession (/ide/extensions/gitpod-web/out/extension.js:2:1403217)
+	at rw.$createSession (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:3484)
+	at gy.S (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:130222)
+	at gy.Q (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:130002)
+	at gy.M (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:129091)
+	at gy.L (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:128196)
+	at vh.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:126993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at vh.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:174:13300)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at Om.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:12573)
+	at vh.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:10993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at H5.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:7940)
+	at vh.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:7226)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at q2.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:21924)
+2024-11-19 19:37:23.242 [error] Error signing in to GitHub: Error: 4 DEADLINE_EXCEEDED: Deadline exceeded
+2024-11-19 19:37:23.242 [error] Error: 4 DEADLINE_EXCEEDED: Deadline exceeded
+	at t.callErrorFromStatus (/ide/extensions/gitpod-web/out/extension.js:2:271675)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:296882)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:292767)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:292212)
+	at /ide/extensions/gitpod-web/out/extension.js:2:376194
+	at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+	at a.makeUnaryRequest (/ide/extensions/gitpod-web/out/extension.js:2:296423)
+	at a.getToken (/ide/extensions/gitpod-web/out/extension.js:2:361597)
+	at node:internal/util:432:7
+	at new Promise (<anonymous>)
+	at bound  (node:internal/util:418:12)
+	at A.getToken (/ide/extensions/gitpod-web/out/extension.js:2:1045235)
+	at c.loginGitHub (/ide/extensions/gitpod-web/out/extension.js:2:1402967)
+	at c.createSession (/ide/extensions/gitpod-web/out/extension.js:2:1403217)
+	at rw.$createSession (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:3484)
+	at gy.S (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:130222)
+	at gy.Q (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:130002)
+	at gy.M (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:129091)
+	at gy.L (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:128196)
+	at vh.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:126993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at vh.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:174:13300)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at Om.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:12573)
+	at vh.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:10993)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at H5.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:7940)
+	at vh.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:7226)
+	at P.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at q2.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:31:21924)

@@ -1,0 +1,15 @@
+2024-11-21 21:50:07.795 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-11-21 21:50:07.795 [info] Activation> Extension version: 0.100.3
+2024-11-21 21:50:09.713 [info] Looking for git repository
+2024-11-21 21:50:09.713 [info] Found 0 repositories during activation
+2024-11-21 21:50:09.713 [info] Git repository found, initializing review manager and pr tree view.
+2024-11-21 21:50:09.717 [info] Registering git provider
+2024-11-21 21:50:09.717 [info] Review+0> Validate state in progress
+2024-11-21 21:50:09.717 [info] Review+0> Validating state...
+2024-11-21 21:50:10.088 [info] Found GitHub remote for folder /workspace/MMaaser.github.io
+2024-11-21 21:50:10.090 [info] Trying to use globalState for assignableUsers.
+2024-11-21 21:50:10.101 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-11-21 21:50:10.101 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-11-21 21:50:10.246 [info] GlobalState does not exist for assignableUsers.
+2024-11-21 21:54:06.616 [info] Repo state for file:///workspace/MMaaser.github.io changed.
+2024-11-21 21:54:06.616 [info] Repo file:///workspace/MMaaser.github.io has already been setup.
