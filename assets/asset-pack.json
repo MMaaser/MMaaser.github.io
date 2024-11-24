@@ -7,8 +7,23 @@
                 "type": "image"
             },
             {
+                "url": "assets/badEnd.png",
+                "key": "badEnd",
+                "type": "image"
+            },
+            {
+                "url": "assets/bgSUB.png",
+                "key": "bgSUB",
+                "type": "image"
+            },
+            {
                 "url": "assets/dimmesdale.png",
                 "key": "dimmesdale",
+                "type": "image"
+            },
+            {
+                "url": "assets/goodEnd.png",
+                "key": "goodEnd",
                 "type": "image"
             },
             {
@@ -17,13 +32,103 @@
                 "type": "image"
             },
             {
+                "url": "assets/holywater.png",
+                "key": "holywater",
+                "type": "image"
+            },
+            {
+                "url": "assets/midEnd.png",
+                "key": "midEnd",
+                "type": "image"
+            },
+            {
                 "url": "assets/mob.png",
                 "key": "mob",
                 "type": "image"
             },
             {
-                "url": "assets/perak.png",
-                "key": "dimmesdale",
+                "url": "assets/needles.png",
+                "key": "needles",
+                "type": "image"
+            },
+            {
+                "url": "assets/panel1.png",
+                "key": "panel1",
+                "type": "image"
+            },
+            {
+                "url": "assets/panel2.png",
+                "key": "panel2",
+                "type": "image"
+            },
+            {
+                "url": "assets/panel3.png",
+                "key": "panel3",
+                "type": "image"
+            },
+            {
+                "url": "assets/panel4.png",
+                "key": "panel4",
+                "type": "image"
+            },
+            {
+                "url": "assets/panel5.png",
+                "key": "panel5",
+                "type": "image"
+            },
+            {
+                "url": "assets/panel6.png",
+                "key": "panel6",
+                "type": "image"
+            },
+            {
+                "url": "assets/pearl.png",
+                "key": "pearl",
+                "type": "image"
+            },
+            {
+                "url": "assets/pearlItem.png",
+                "key": "pearlItem",
+                "type": "image"
+            },
+            {
+                "url": "assets/rodger.png",
+                "key": "rodger",
+                "type": "image"
+            },
+            {
+                "url": "assets/street.png",
+                "key": "street",
+                "type": "image"
+            },
+            {
+                "url": "assets/walkerSUB.png",
+                "key": "walkerSUB",
+                "type": "image"
+            },
+            {
+                "url": "assets/walksprite.jpg",
+                "key": "walksprite",
+                "type": "sprite"
+            },
+            {
+                "url": "assets/wearNeedles.jpg",
+                "key": "wearNeedles",
+                "type": "image"
+            },
+            {
+                "url": "assets/wearWater.jpg",
+                "key": "wearWater",
+                "type": "image"
+            },
+            {
+                "url": "assets/wearWood.jpg",
+                "key": "wearWood",
+                "type": "image"
+            },
+            {
+                "url": "assets/wood.jpg",
+                "key": "wood",
                 "type": "image"
             }
         ]

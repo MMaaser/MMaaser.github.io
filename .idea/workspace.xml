@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="444e7494-99d9-488b-a7ef-4c7ba7a95c44" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitpod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MMaaser.github.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/asset-pack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/badEnd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/bgSUB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/dimmesdale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/dino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/goodEnd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/guapen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/hester.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/holywater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/midEnd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/mob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/needles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/panel1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/panel2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/panel3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/panel4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/panel5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/panel6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/pearl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/pearlitem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/preload-asset-pack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/rodger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/street.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/walkerSUB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/walksprite.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/wearNeedles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/wearPearl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/wearWater.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/wearWood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/assets/wood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/events.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/lib/phaser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/AddToParentActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/AlertActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/CallbackActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/ConsoleLogActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/Core.components" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/DestroyActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/EmitEventActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/ExecActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/ExecChildrenActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/ExecRandomActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/FlipActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/OnAwakeScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/OnEventScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/OnPointerDownScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/PlaySpriteAnimationActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/RootScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/SetAngleActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/SetScaleXActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/SetScaleYActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/SetXActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/SetYActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/SpawnActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/SpriteScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/StartSceneActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/lib/phasereditor2d_scripts_core.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/lib/phasereditor2d_scripts_core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_core/library.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_simple_animations/Animation.components" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_simple_animations/FadeActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_simple_animations/MoveInSceneActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_simple_animations/MoveOutSceneActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_simple_animations/PushActionScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_simple_animations/lib/phasereditor2d_scripts_simple_animations.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_simple_animations/lib/phasereditor2d_scripts_simple_animations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/phasereditor2d_scripts_simple_animations/library.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/src/components/Behaviors.components" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/src/components/UserComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/src/scenes/Level.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/src/scenes/Level.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/src/scenes/Preload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/src/scenes/Preload.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/src/script-nodes/PreloadBarUpdaterScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/src/script-nodes/PreloadBarUpdaterScript.scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/types/matter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMaaser.github.io/types/phaser.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/asset-pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/asset-pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/preload-asset-pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/preload-asset-pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/Level.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Level.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/Preload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Preload.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2olALFEI5QQlLZaJZlU2gYKQsGI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/max/Documents/GitHub/MMaaser.github.io",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "two.files.diff.last.used.folder": "/home/max/Documents/GitHub/MMaaser.github.io"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="444e7494-99d9-488b-a7ef-4c7ba7a95c44" name="Changes" comment="" />
+      <created>1731433733377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731433733377</updated>
+    </task>
+    <servers />
+  </component>
+</project>

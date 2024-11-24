@@ -16,8 +16,8 @@ class Preload extends Phaser.Scene {
 	editorPreload() {
 
 		this.load.pack("asset-pack", "assets/asset-pack.json");
+		this.load.image("pearlItem","images/pearlitem.png");
 	}
-
 	/** @returns {void} */
 	editorCreate() {
 
@@ -25,6 +25,8 @@ class Preload extends Phaser.Scene {
 		const guapen = this.add.image(505.0120544433594, 360, "guapen");
 		guapen.scaleX = 0.32715486817515643;
 		guapen.scaleY = 0.32715486817515643;
+
+		const pearl = this.add.image(500,350,"pearlItem");
 
 		// progressBar
 		const progressBar = this.add.rectangle(553.0120849609375, 361, 256, 20);
@@ -59,7 +61,7 @@ class Preload extends Phaser.Scene {
 
 		this.editorPreload();
 
-		this.load.on(Phaser.Loader.Events.COMPLETE, () => this.scene.start("Level"));
+		this.load.on(Phaser.Loader.Events.COMPLETE, () => this.scene.start("Comic"));
 	}
 
 	/* END-USER-CODE */
