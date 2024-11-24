@@ -1745,7 +1745,7 @@ class badEnd extends Phaser.Scene {
 
 	editorCreate(){
 		this.add.image(640, 360, "badEnd");
-		this.add.text(400, 390,, { fontFamily: 'Arial', fontSize: 40, color: '#5c0000' });
+		this.add.text(400, 390, { fontFamily: 'Arial', fontSize: 40, color: '#5c0000' });
 
 	}
 
