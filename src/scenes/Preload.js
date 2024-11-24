@@ -45,7 +45,7 @@ class Preload extends Phaser.Scene {
 
 		// loadingText
 		const loadingText = this.add.text(552.0120849609375, 329, "", {});
-		loadingText.text = "Loading...";
+		loadingText.text = "Loading... It pushed";
 		loadingText.setStyle({ "color": "#e0e0e0", "fontFamily": "arial", "fontSize": "20px" });
 
 		this.events.emit("scene-awake");
@@ -61,7 +61,7 @@ class Preload extends Phaser.Scene {
 
 		this.editorPreload();
 
-		//this.load.on(Phaser.Loader.Events.COMPLETE, () => this.scene.start("Comic"));
+		this.load.on(Phaser.Loader.Events.COMPLETE, () => this.scene.start("Scene1"));
 	}
 
 	/* END-USER-CODE */
