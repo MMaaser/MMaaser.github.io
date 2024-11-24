@@ -45,7 +45,7 @@ class Preload extends Phaser.Scene {
 
 		// loadingText
 		const loadingText = this.add.text(552.0120849609375, 329, "", {});
-		loadingText.text = "Loading... It pushed";
+		loadingText.text = "Loading... ooo";
 		loadingText.setStyle({ "color": "#e0e0e0", "fontFamily": "arial", "fontSize": "20px" });
 
 		this.events.emit("scene-awake");
