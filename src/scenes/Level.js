@@ -189,10 +189,17 @@ class Comic extends Phaser.Scene {
 	this.add.image(640, 360, "bgSUB");
 	//pointer = scene.input.activePointer;
 
+	this.add.text(130, 200,"'[a] x' means press 'a' on your keyboard to do x", { fontFamily: 'Serif', fontSize: 25, color: '#000000' });
+		this.add.text(130, 230,"If no letters in brackets are giving you controls, click to do things.", { fontFamily: 'Serif', fontSize: 25, color: '#000000' });
+		this.add.text(130, 300,"Each item in your inventory will affect your HP differently if eaten.", { fontFamily: 'Serif', fontSize: 25, color: '#000000' });
+		this.add.text(130, 330,"Each item in your inventory can also be used to attack, and each does a different amount of damage.", { fontFamily: 'Serif', fontSize: 25, color: '#000000' });
+
 var comicPanel = 1;
 	this.input.on('pointerdown', function (event) {
-		
-	if (comicPanel === 1){
+	
+ if (comicPanel === 1){
+		this.add.image(640, 360, "bgSUB");
+
 		this.add.image(650,360,"panel1");
 		 comicPanel = 2;
 	 }else if (comicPanel === 2){
@@ -556,7 +563,7 @@ class Fight1 extends Phaser.Scene {
 
 					} else {
 					this.add.text(230, 550,"You threw Pearl at Dimmesdale, and she hit him like a bullet.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
-					this.add.text(230, 600,"If only she could heal like a bullet, and not like a baby. She doesn't look so good.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+					this.add.text(230, 600,"Pearl is injured from the impact.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
 					attack(pearl, Dimmesdale);
 					}
 					this.add.text(1000, 600,"[z] continue", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
@@ -675,7 +682,13 @@ class Fight1 extends Phaser.Scene {
 			}
 
 			if (hesterHP === 0){
-				this.scene.start("badEnd");
+				this.add.rectangle(640, 600, 1080, 200, white.color);
+				this.add.rectangle(640, 600, 1070, 190, black.color);
+				this.add.text(230, 550,"You died.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+				this.add.text(1000, 600,"[u] continue", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+				this.input.keyboard.on('keydown-U', event =>{
+					this.scene.start("badEnd");
+				});
 			}
 
 }
@@ -743,6 +756,43 @@ var comicPanel = 1;
 			this.add.text(130, 580," a murderer, a scourge upon the very earth thou treadest! ", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
 
 	} else if (comicPanel === 3){
+		this.add.image(640,360,"street");
+
+		let rod = this.add.image(650,250,"rodger");
+		rod.scaleX = 0.2;
+		rod.scaleY = 0.2;
+		 comicPanel = 2;
+		 walker = this.physics.add.sprite(600,400,"walksprite");
+
+
+		const welcome = this.add.text(640, 40, "", {});
+		welcome.setOrigin(0.5, 0.5);
+		welcome.text = "^^^^^ Exit Up Here ^^^^^^";
+		welcome.setStyle({ "fontFamily": "Arial", "fontSize": "30px", "color": "#000" });
+		
+
+		outside = this.physics.add.image(440,390,"dimmesdale");
+outside.scaleX = 0.2;
+outside.scaleY = 0.2;
+
+		this.add.text(400, 390,"dead", { fontFamily: 'Arial', fontSize: 40, color: '#5c0000' });
+
+		var her = this.physics.add.image(940,360,"hester"); 
+		her.scaleX = 0.6;
+		her.scaleY = 0.6;
+
+		this.anims.create({
+            key: 'still',
+            frames: [ { key: 'walksprite', frame: 0 } ],
+            frameRate: 20
+        });
+
+
+		this.add.rectangle(640, 600, 1080, 200, white.color);
+			this.add.rectangle(640, 600, 1070, 190, black.color);
+			this.add.text(130, 550,"I'll kill you, Dimmesdale.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+comicPanel = 4;
+	}  else if (comicPanel === 4){
 		this.scene.start("Fight2");
 	}
 	}, this);
@@ -1079,14 +1129,25 @@ class Fight2 extends Phaser.Scene {
 			this.add.text(520, 650,"pearl: " +pearl.hp + '/30 hp', { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });		
 			this.add.text(720, 650, "holywater: " + water.hp + "/40 hp", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
 			if (Rodger.hp === 0){
-				
+				this.add.rectangle(640, 600, 1080, 200, white.color);
+				this.add.rectangle(640, 600, 1070, 190, black.color);
+				this.add.text(230, 550,"Rodger died.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+				this.add.text(1000, 600,"[u] continue", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+				this.input.keyboard.on('keydown-U', event =>{
 					this.scene.start("Scene3");
-				
+				});
+							
 	
 			}
 
 			if (hesterHP === 0){
-				this.scene.start("badEnd");
+				this.add.rectangle(640, 600, 1080, 200, white.color);
+				this.add.rectangle(640, 600, 1070, 190, black.color);
+				this.add.text(230, 550,"You died.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+				this.add.text(1000, 600,"[u] continue", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+				this.input.keyboard.on('keydown-U', event =>{
+					this.scene.start("badEnd");
+				});
 			}
 
 			if (needle.hp === 0 && wood.hp === 0 && pearl.hp === 0 && water.hp === 0){
@@ -1579,15 +1640,27 @@ class Fight3 extends Phaser.Scene {
 			this.add.text(320, 650,"wood: " + wood.hp + '/30 hp', { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
 			this.add.text(520, 650,"pearl: " +pearl.hp + '/30 hp', { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });		
 			this.add.text(720, 650, "holywater: " + water.hp + "/40 hp", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+			
 			if (mob.hp === 0){
-				
-					this.scene.start("Scene3");
-				
+				this.add.rectangle(640, 600, 1080, 200, white.color);
+				this.add.rectangle(640, 600, 1070, 190, black.color);
+				this.add.text(230, 550,"The mob died.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+				this.add.text(1000, 600,"[u] continue", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+				this.input.keyboard.on('keydown-U', event =>{
+					this.scene.start("Scene4");
+				});
+							
 	
 			}
 
 			if (hesterHP === 0){
-				this.scene.start("badEnd");
+				this.add.rectangle(640, 600, 1080, 200, white.color);
+				this.add.rectangle(640, 600, 1070, 190, black.color);
+				this.add.text(230, 550,"You died.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+				this.add.text(1000, 600,"[u] continue", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+				this.input.keyboard.on('keydown-U', event =>{
+					this.scene.start("badEnd");
+				});
 			}
 
 			if (needle.hp === 0 && wood.hp === 0 && pearl.hp === 0 && water.hp === 0){
@@ -1669,7 +1742,7 @@ var comicPanel = 1;
 	walker.setVelocityY(-200);
 		 comicPanel = 2;
 	 }else if (comicPanel === 2){
-		if (pearl.hp = 0){
+		if (pearl.hp === 0){
 			this.scene.start("midEnd");
 		} else {
 			this.scene.start("goodEnd");
@@ -1745,8 +1818,18 @@ class badEnd extends Phaser.Scene {
 
 	editorCreate(){
 		this.add.image(640, 360, "badEnd");
-		this.add.text(400, 390, { fontFamily: 'Arial', fontSize: 40, color: '#5c0000' });
-
+				this.add.text(1000, 600,"[u] revive", { fontFamily: 'Serif', fontSize: 40, color: '#000000' });
+				this.input.keyboard.on('keydown-U', event =>{
+					hesterHP = 100;
+					pearl.hp = 30;
+					water.hp = 40;
+					wood.hp = 30;
+					needle.hp = 50;
+					Dimmesdale.hp = 60;
+					Rodger.hp = 100;
+					mob.hp = 160;
+					this.scene.start("Comic");
+				});
 	}
 
 	create(){
