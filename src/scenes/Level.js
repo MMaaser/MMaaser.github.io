@@ -243,7 +243,7 @@ class Scene1 extends Phaser.Scene {
 	}
 
 	preload(){
-		this.load.spritesheet("walksprite", "assets/walksprite.jpg",{ frameWidth: 100, frameHeight:100 });
+		this.load.spritesheet("walksprite", "assets/walksprite.png",{ frameWidth: 100, frameHeight:100 });
 		this.load.image("street", "assets/street.png");
 		this.load.image("dimmesdale", "assets/dimmesdale.png");
 		this.load.image("hester", "assets/hester.png");
@@ -691,7 +691,7 @@ class Scene2 extends Phaser.Scene {
 	}
 
 	preload(){
-		this.load.spritesheet("walksprite", "assets/walksprite.jpg",{ frameWidth: 100, frameHeight:100 });
+		this.load.spritesheet("walksprite", "assets/walksprite.png",{ frameWidth: 100, frameHeight:100 });
 		this.load.image("street", "assets/street.png");
 		this.load.image("dimmesdale", "assets/dimmesdale.png");
 		this.load.image("hester", "assets/hester.png");
@@ -1116,7 +1116,7 @@ class Scene3 extends Phaser.Scene {
 	}
 
 	preload(){
-		this.load.spritesheet("walksprite", "assets/walksprite.jpg",{ frameWidth: 100, frameHeight:100 });
+		this.load.spritesheet("walksprite", "assets/walksprite.png",{ frameWidth: 100, frameHeight:100 });
 		this.load.image("street", "assets/street.png");
 		this.load.image("dimmesdale", "assets/dimmesdale.png");
 		this.load.image("hester", "assets/hester.png");
@@ -1617,7 +1617,7 @@ class Scene4 extends Phaser.Scene {
 	}
 
 	preload(){
-		this.load.spritesheet("walksprite", "assets/walksprite.jpg",{ frameWidth: 100, frameHeight:100 });
+		this.load.spritesheet("walksprite", "assets/walksprite.png",{ frameWidth: 100, frameHeight:100 });
 		this.load.image("street", "assets/street.png");
 		this.load.image("dimmesdale", "assets/dimmesdale.png");
 		this.load.image("hester", "assets/hester.png");

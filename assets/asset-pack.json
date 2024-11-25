@@ -107,7 +107,7 @@
                 "type": "image"
             },
             {
-                "url": "assets/walksprite.jpg",
+                "url": "assets/walksprite.png",
                 "key": "walksprite",
                 "type": "sprite"
             },
