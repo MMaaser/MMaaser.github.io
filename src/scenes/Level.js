@@ -426,7 +426,12 @@ class Fight1 extends Phaser.Scene {
 				hesterHP = hesterHP - damage;
 				this.add.text(260, 550,"Dimmesdale used Preaching Words. You took that damage in your soul.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
 				this.add.text(260, 600,"[b] back to your menu", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
-			});
+
+				if (hesterHP < 0){
+					hesterHP = 0;
+				}
+			
+					});
 
 			this.input.keyboard.on('keydown-C', event =>	{
 				menu = false;
