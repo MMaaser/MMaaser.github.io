@@ -866,6 +866,11 @@ class Fight2 extends Phaser.Scene {
 				hesterHP = hesterHP - damage;
 				this.add.text(260, 550,"Rodger threw assorted chemicals at you.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
 				this.add.text(260, 600,"[b] back to your menu", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+
+				
+					if(hesterHP < 1){
+						hesterHP = 0;
+					}
 			});
 
 			this.input.keyboard.on('keydown-C', event =>	{
@@ -1378,6 +1383,11 @@ class Fight3 extends Phaser.Scene {
 				hesterHP = hesterHP - damage;
 				this.add.text(260, 550,"The mob threw stones at you.", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
 				this.add.text(260, 600,"[b] back to your menu", { fontFamily: 'Serif', fontSize: 25, color: '#ffffff' });
+
+				
+					if(hesterHP < 1){
+						hesterHP = 0;
+					}
 			});
 
 			this.input.keyboard.on('keydown-C', event =>	{
